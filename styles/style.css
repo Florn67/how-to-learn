@@ -131,3 +131,74 @@
 .two-columns__span-accent{
   font-weight: bold;
 }
+
+/* digits*/
+
+.digits {
+  display: flex;
+  padding: 100px 0 100px 0;
+  flex-direction: column;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-title_margin-bottom_sm {
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+ /*padding-top: 60px;*/
+ margin: 0 auto;
+ width: 1100px;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ list-style-type: none;
+}
+
+.table__cell_type_digits{
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__heading_type_digits {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_type_digits{
+  margin: 0;
+}
+.table__source {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* ПЕРЕДЕЛАТЬ WIDTH У БЛОЧНЫХ ЭЛЕМЕНТОВ */
