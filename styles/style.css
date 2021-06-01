@@ -30,6 +30,12 @@
   margin-top: 80px;
 }
 
+/* mix*/
+
+.no-underline {
+  text-decoration: none;
+}
+
 /* header*/
 .header {
   display: flex;
@@ -62,6 +68,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
 }
 
 .header_subtitle {
@@ -80,6 +87,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -123,7 +131,7 @@
   font-weight: normal;
   color: #2f80ed;
   width: 175px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -368,10 +376,14 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #f2f2f2;
 }
 
-.social-icons {
+.social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
+}
+
+.column__link_color_white {
+  color: #f2f2f2;;
 }
