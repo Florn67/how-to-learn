@@ -329,7 +329,7 @@
   color: #f2f2f2;
 }
 
-.footer__heading {
+.footer__column-heading {
   margin-top: 0;
   margin-bottom: 20px;
   line-height: 30px;
@@ -338,7 +338,7 @@
   color: #f2f2f2;
 }
 
-.footer__links {
+.footer__column-links {
   margin-top: 0;
   margin-bottom: 16px;
   padding: 0;
@@ -346,19 +346,19 @@
   flex-direction: column;
 }
 
-.footer__link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.social-icon {
+.footer__social-icon {
   height: 16px;
   width: 16px;
   margin-right: 10px;
   object-fit: cover;
 }
 
-.footer__link_color_white {
+.footer__column-link_color_white {
   color: #f2f2f2;
 }
